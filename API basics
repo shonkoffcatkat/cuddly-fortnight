@@ -1,0 +1,18 @@
+---
+title: API Basics
+---
+
+# Pre-Digitization API Web Services
+
+The following services are part of the Pre-Digitization API. For details (examples and object model) about each service refer to the [API Reference](https://developer.mastercard.com/mdes-pre-digitization/documentation/api-reference/) section.
+
+| Service | Description |
+| :--- | :--- |
+| **Authorize Service (AS)** | This API is used to request an Issuer to authorize a Funding Account for a Mastercard service or set of services. |
+| **Request Activation Methods (RAM)** | This API is used to advise an Issuer that a service activation has been requested and that an Issuer should provide Activation Methods for the Account holder. |
+| **Deliver Activation Code (DAC)** | This API is used to deliver an Activation Code required to authenticate the Account holder. |
+| **Notify Service Activated (NSA)** | This API is used to receive notifications that the provisioning and activation of a token for a Primary Account Number has been completed by the digitization service. |
+| **Notify TokenUpdated (NTU)** | This API is used by MDES to notify the Issuer of significant token updates. |
+| **Validate Activation Code (VAC)** | This API is used to activate a Token for first-time use if the digitization decision was to ‘Require Additional Authentication’ in the Digitize response. |
+| **GetAccountInformation** | This API is used to request an Issuer to return information about a funding account for a Mastercard service or set of services. |
+| **Notify Suspicious Events** | This service aims to assist issuers with their risk management activities and detection of suspicious activity related to the use of digital wallets using MCBP technology. This API will notify issuers about suspicious activity that can be detected by MDES for a digital wallet during the MCBP device-based Cloud token replenishment process. |
